@@ -1,0 +1,33 @@
+{
+ "v": 1,
+ "cfg": {
+  "ativo": true,
+  "whatsapp": "",
+  "dias": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "inicio": "08:00",
+  "fim": "18:00",
+  "intervalo": 30,
+  "pausaIni": "12:00",
+  "pausaFim": "13:30",
+  "antecedenciaH": 12,
+  "semanas": 3,
+  "folgas": [],
+  "endereco": "",
+  "procedimentos": [
+   "Avaliação",
+   "Limpeza",
+   "Revisão",
+   "Clareamento",
+   "Dor / urgência",
+   "Outro"
+  ]
+ },
+ "ocupados": [],
+ "atualizado": "2026-10-30T01:11:44.233Z"
+}
