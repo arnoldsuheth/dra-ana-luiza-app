@@ -763,7 +763,7 @@ VIEWS.ajuda=function(){return `<section class="page-h"><p class="eyebrow">Guia r
 function abrirGuia(i){const g=GUIAS[i];if(!g)return;
  openSheet(g[1],`<ol class="guide-steps">${g[2].map(t=>`<li><span>${t}</span></li>`).join('')}</ol>
  <a class="btn ghost full" href="${waStudio('ajuda')}" target="_blank" rel="noopener">${svg('wa',18)} Ainda com dúvida? Chamar no WhatsApp</a>`)}
-const BV_KEY='clin_'+CONFIG.SLUG+'_bv';
+const BV_KEY='clin_'+CONFIG.SLUG+'_bv2';
 const bvOculto=()=>{try{return localStorage.getItem(BV_KEY)==='1'}catch{return false}};
 function setBv(ocultar){try{ocultar?localStorage.setItem(BV_KEY,'1'):localStorage.removeItem(BV_KEY)}catch{}}
 const textoBv=()=>`Este painel foi feito para o seu consultório. No guia rápido cada função tem poucos passos, e sempre que precisar é só tocar em <b>Chamar</b> para falar comigo pelo WhatsApp.`;
